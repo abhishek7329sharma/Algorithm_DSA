@@ -33,13 +33,32 @@ Let's take an example where the input value of 'n' is 6. Here are the steps that
 
 1. The 'fib' array is initialized with [0, 1].
 2. The loop begins with 'i' set to 2.
-    - The code calculates `fib[2] = fib[1] + fib[0]`, resulting in `fib[2] = 1 + 0 = 1`.
+    - The code calculates 
+    
+    `fib[2] = fib[1] + fib[0]`, resulting in 
+    
+    `fib[2] = 1 + 0 = 1`.
+
 3. The loop continues with 'i' set to 3.
-    - The code calculates `fib[3] = fib[2] + fib[1]`, resulting in `fib[3] = 1 + 1 = 2`.
+    - The code calculates 
+    
+    `fib[3] = fib[2] + fib[1]`, resulting in 
+    
+    `fib[3] = 1 + 1 = 2`.
 4. The loop continues with 'i' set to 4.
-    - The code calculates `fib[4] = fib[3] + fib[2]`, resulting in `fib[4] = 2 + 1 = 3`.
+    - The code calculates 
+    
+    `fib[4] = fib[3] + fib[2]`, resulting in 
+    
+    `fib[4] = 2 + 1 = 3`.
+
 5. The loop continues with 'i' set to 5.
-    - The code calculates `fib[5] = fib[4] + fib[3]`, resulting in `fib[5] = 3 + 2 = 5`.
+    - The code calculates 
+    
+    `fib[5] = fib[4] + fib[3]`, resulting in 
+    
+    `fib[5] = 3 + 2 = 5`.
+
 6. The loop ends because 'i' is no longer less than 'n' (6). Finally, the code returns the 'fib' array with [0, 1, 1, 2, 3, 5], which represents the Fibonacci sequence up to the 6th position.
 
 **Note:** This code utilizes an iterative approach and dynamic programming to efficiently calculate the Fibonacci sequence. By storing the calculated values in the 'fib' array, redundant calculations are avoided.
