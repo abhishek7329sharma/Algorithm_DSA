@@ -106,3 +106,38 @@ An integer is a poer of two if there exists an integer `x` such that `n === 2^x`
 
 `rescursiveFibonaaci(6) = 8`
 
+
+## Search Algorithms
+
+- Linear Search
+- Binary Search
+- Recursive Binary Search
+
+### 07-Linear Search
+
+Given an array of `n` elements and a target elements `t`, find the index of `t` in the array. Return `-1` if the target element is not found.
+
+`arr = [-5, 2, 10, 4, 6], t=10 => Should return 2`
+
+`arr = [-5, 2, 10, 4, 6], t=6 => Should return 4`
+
+`arr = [-5, 2, 10, 4, 6], t=20 => Should return -1`
+### 08-Binary Search
+
+Given a sorted array of `n` elements and a target elements `t`, find the index of `t` in the array. Return `-1` if the target element is not found.
+
+`arr = [-5, 2, 10, 4, 6], t=10 => Should return 2`
+
+`arr = [-5, 2, 10, 4, 6], t=6 => Should return 4`
+
+`arr = [-5, 2, 10, 4, 6], t=20 => Should return -1`
+
+- If the array is empty, return -1 as the element cannot be found.
+
+- If the array has elements, find the middle element in the array. If target is equal to the middle element, return the middle element index.
+
+- If target is less than the middle element, binary search left half of the array.
+
+- If the target greater than middle element, binary search right half of the array.
+
+
